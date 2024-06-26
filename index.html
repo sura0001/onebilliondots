@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="icon" href="images/favicon.png" type="image/gif" />
 
-  <title>Shapel</title>
+  <title>1Billion Dots</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -30,6 +30,11 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    @media only screen and (max-width: 767px){
+      .sl { width: 400px !important; height: 400px !important;}
+    }
+  </style>
 
 </head>
 
@@ -39,7 +44,7 @@
   <header class="header_section">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="#">
 
           <img src="images/logo.png" alt="logo" width="200px" height="125px"
             style="position: relative; right: 70px; bottom: 35px;">
@@ -79,30 +84,30 @@
   <!-- end header section -->
 
   <!-- slider section -->
-  <section class="slider_section position-relative">
+  <section class="slider_section position-relative" style="min-height: 750px;   object-fit: contain;">
     <div id="customCarousel1" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="img_container">
-            <div class="img-box">
+          <div class="img_container" >
+            <div class="img-box" style="margin:auto; " id="dabba">
               <img src="images/slider-bg-1.jpg" class="sl" alt="photo1"
-                style="height: 750px; width: 750px; position: relative; left: 18.75rem;">
+                style="height: 750px; width: 750px;">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="img_container">
-            <div class="img-box">
+            <div class="img-box" style="margin:auto;">
               <img src="images/slider-bg-2.jpg" class="sl" alt="photo1"
-                style="height: 750px; width: 750px; position: relative; left: 18.75rem;">
+                style="height: 750px; width: 750px;">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="img_container">
-            <div class="img-box">
+            <div class="img-box" style="margin:auto;">
               <img src="images/slider-bg-3.jpg" class="sl" alt="photo1"
-                style="height: 750px; width: 750px; position: relative; left: 18.75rem;">
+                style="height: 750px; width: 750px; ">
             </div>
           </div>
         </div>
@@ -237,12 +242,15 @@
           Our Processes
         </h2>
       </div>
+
+      <!--
       <div class="row">
         <div class="col-md-6 col-lg-4 mx-auto" style="max-width: 100%; height: auto;">
           <img src="images/process-2.jpg">
       </div>
     </div>
-
+    -->
+      
   </section>
 
   <!-- end service section -->
@@ -341,6 +349,7 @@
 
 
   <!-- jQery -->
+ 
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
