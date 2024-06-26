@@ -21,9 +21,6 @@
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
 
-  <!-- lightbox Gallery-->
-  <link rel="stylesheet" href="css/ekko-lightbox.css" />
-
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
   <!-- Custom styles for this template -->
@@ -67,74 +64,51 @@
   </header>
   <!-- end header section -->
 
-  <!-- gallery section -->
-
-  <div class="gallery_section layout_padding2">
-    <div class="container-fluid">
-      <div class="heading_container heading_center">
-        <h2>
-          Gallery
-        </h2>
-      </div>
+  <!-- service section -->
+  <!-- contact section -->
+  <section class="contact_section  ">
+    <div class="container">
       <div class="row">
-        <div class=" col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/1.jpeg" alt="" style="object-fit: cover;">
-            <a href="images/1.jpeg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
+        <div class="col-md-7 col-lg-6 ">
+          <div class="form_container">
+            <div class="heading_container ">
+              <h2>
+                Contact Us
+              </h2>
+            </div>
+            <form action="">
+              <div>
+                <input type="text" placeholder="Your Name*" id="name" required/>
+              </div>
+              <div>
+                <input type="text" placeholder="Phone Number" id="phone" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email*" id="email" required/>
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message* (only supports less than 2000 characters)" id= "msg"  required/>
+              </div>
+              <div class="btn_box">
+                <button onclick="sendMail();">
+                  SEND
+                </button>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box" style="height: 100%">
-            <img src="images/2.jpeg" alt="" style="object-fit: cover;">
-            <a href="images/2.jpeg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box" style="height: 100%">>
-            <img src="images/3.jpeg" alt="" style="object-fit: cover;">
-            <a href="images/3.jpeg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box " style="height: 100%">>
-            <img src="images/4.jpeg" alt="" style="object-fit: cover;">
-            <a href="images/4.jpeg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box" style="height: 100%">>
-            <img src="images/5.jpeg" alt="" style="object-fit: cover;">>
-            <a href="images/5.jpeg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-8 col-md-6 px-0">
-          <div class="img-box" style="height: 100%">>
-            <img src="images/7.jpg" alt="" style="object-fit: cover;">
-            <a href="images/7.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
+        <div class="col-md-5 col-lg-6">
+          <div class="subscribe-box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.978321573749!2d77.09291660000001!3d28.4801995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d192f308689f7%3A0x9f314f9b1628a91c!2sPLATINA%20TOWER-2%2C%20A%20Block%2C%20DLF%20Phase%201%2C%20Gurugram%2C%20Sikanderpur%20Ghosi%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1719422334317!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
-
-
-
-      
     </div>
-  </div>
+  </section>
 
-  <!-- end gallery section -->
+  <!-- end service section -->
 
+  <!-- info section -->
   <section class="info_section ">
     <div class="container">
       <div class="row info_main_row">
@@ -228,11 +202,10 @@
 
 
   <!-- jQery -->
+  <script src="js/email.js"></script>
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
-  <!-- lightbox Gallery-->
-  <script src="js/ekko-lightbox.min.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
 
