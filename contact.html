@@ -11,7 +11,7 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="icon" href="images/logo.png" type="image/gif" />
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
 
   <title>1Billion Dots</title>
 
@@ -27,6 +27,12 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    #info {
+      display: flex;
+      justify-content: space-around;
+    }
+  </style>
 
 </head>
 
@@ -87,7 +93,7 @@
                 <input type="email" placeholder="Email*" id="email" required/>
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message* (only supports less than 2000 characters)" id= "msg"  required/>
+                <input type="text" class="message-box" placeholder="Message* ( ~ 2000 characters)" id= "msg"  required/>
               </div>
               <div class="btn_box">
                 <button onclick="sendMail();">
@@ -109,64 +115,60 @@
   <!-- end service section -->
 
   <!-- info section -->
-  <section class="info_section ">
+  <section class="info_section">
     <div class="container">
-      <div class="row info_main_row">
-        <div class="col-md-6 col-lg-3" style="margin: auto;">
+      <div class="row info_main_row justify-content-center text-center" id="info">
+        <div class="col-md-6 col-lg-4 mb-5" style="padding: 20px; background-color: inherit; border-radius: 8px; margin-top: 8px;">
           <div class="info_insta">
             <h4>
               <a href="#" class="navbar-brand m-0 p-0">
-                <span style="text-decoration: none;  color: #f49819;">
-                  1Billion Dots Company
+                <span style="text-decoration: none; color: #f49819;">
+                  1Billion Dots 
                 </span>
               </a>
             </h4>
-            <p class="mb-0">
-              We embody the essence of creative metamorphosis,
-               shaping innovation and evolution.
+            <p style="margin-top: 30px; text-align: left;">
+              We embody the essence of creative metamorphosis, shaping innovation and evolution.
             </p>
           </div>
         </div>
-         <div class="col-md-6 col-lg-3" style="display: none;">
-         <div class="info_detail">
-            <h4>
-              Company
-            </h4>
-            <p class="mb-0">
-              when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to
-            </p>
-          </div> 
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <h4 style=" color: #f49819;">
+
+        <div class="col-md-6 col-lg-4 mb-5" style="padding: 20px; background-color: inherit; border-radius: 8px;" >
+          <a href="contact.html" class="navbar-brand">
+          <span style="color: #f49819;">
             Contact Us
-          </h4>
+          </span>
+          </a>
           <div class="info_contact">
-            <a href="">
+            <a href="contact.html" style="align-items: baseline;" >
               <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span style="position: relative; left: 10px;">
-                Platina Tower-2, A Block, DLF Phase 1, Gurugram, Haryana 122022
+              <span style="position: relative; left: 7px; text-align: left;">
+                Platina Tower-2, A Block, DLF Phase 1, Gurugram, Haryana
               </span>
             </a>
-            <a href="tel:+919811470135">
+            <a href="tel:+919811470135" style="align-items: baseline;">
               <i class="fa fa-phone" aria-hidden="true"></i>
-              <span style="" >
+              <span>
                 Call +91 9811470135
               </span>
             </a>
-            <a href="mailto:billiondotscompany@gmail.com">
+            <a href="mailto:billiondotscompany@gmail.com" style="align-items: baseline;" >
               <i class="fa fa-envelope"></i>
-              <span style="position: relative; left: 10px;">
+              <span style="position: relative; left: 0px;" >
+                
                 billiondotscompany@gmail.com
+                
               </span>
             </a>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <h4 style=" color: #f49819;">
+
+        <div class="col-md-6 col-lg-4 mb-5" style="padding: 20px; background-color: inherit; border-radius: 8px;">
+          <a href="#" class="navbar-brand" style="margin-bottom: 30px;">
+          <span style="color: #f49819; padding-right: 60px;" class="text-center">
             Follow Us
-          </h4>
+          </span>
+          </a>  
           <div class="social_box">
             <a href="">
               <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -185,6 +187,7 @@
       </div>
     </div>
   </section>
+
 
   <!-- end info_section -->
 

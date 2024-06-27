@@ -6,7 +6,7 @@ let phone = document.getElementById("phone");
 let msg = document.getElementById("msg");
 
  
-let link = 'mailto:'+ email.value + '?subject=' + encodeURIComponent("Contact from Website") + '&body=' + encodeURIComponent("Name: " + namee.value + "\nEmail: " + email.value + "\nPhone: " + phone.value + "\n\n" + msg.value);
+let link = 'mailto:billiondotscompany@gmail.com'+ '?subject=' + encodeURIComponent("Contact from Website") + '&body=' + encodeURIComponent("Name: " + namee.value + "\nEmail: " + email.value + "\nPhone: " + phone.value + "\n\n" + msg.value);
 
 window.location.href = link;
 

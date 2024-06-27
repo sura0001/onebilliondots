@@ -3,7 +3,7 @@ $black: #000000;
 // $primary1: #004e9a;
 // $primary2: #428cd4;
 $primary1: #3a3f58;
-$primary2: #e45441;
+$primary2: #f49819;
 $bgColor:#041b2d;
 
 @mixin main-font {
@@ -419,7 +419,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 0);
+      @include hero_btn(#f49819, $black, 10px, 45px, 0);
     }
   }
 }
@@ -497,7 +497,7 @@ a:focus {
     margin-top: 45px;
 
     a {
-      @include hero_btn($primary2, $white, 10px, 45px, 5px);
+      @include hero_btn(#f49819, $black, 10px, 45px, 5px);
     }
   }
 }
@@ -523,7 +523,7 @@ a:focus {
 
       img {
         width: 100%;
-      /*  border-radius: 100%; */
+        border-radius: 100%;
         border: 5px solid $white;
       }
     }
