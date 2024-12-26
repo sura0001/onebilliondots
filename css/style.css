@@ -1,5 +1,12 @@
 /* fonts import */
 @import url("../fonts/octin_sports_rg.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.mont {
+  font-family: 'Montserrat', sans-serif;
+}
+.hniq {
+  font-weight: bold; font-size: 2rem;
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
